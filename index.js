@@ -1,12 +1,12 @@
 'use strict';
 
-var isBrowser = require('is-browser')
+var isBrowser = require('forbeslindesay-is-browser')
   , validate = require('./validate')
   , Context = require('./context')
-  , core = isBrowser ? require('json-schema-core') : require('json-schema-core-component')
+  , core = isBrowser ? require('ericgj-json-schema-core') : require('json-schema-core-component')
   , Schema = core.Schema
-  , each = isBrowser ? require('each') : require('each-component')
-  , type = isBrowser ? require('type') : require('component-type')
+  , each = isBrowser ? require('component-each') : require('each-component')
+  , type = isBrowser ? require('component-type') : require('component-type')
 
 var validateObject = require('./type/object')
   , validateArray = require('./type/array')

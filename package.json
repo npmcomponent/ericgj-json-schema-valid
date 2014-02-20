@@ -1,32 +1,16 @@
 {
-  "name": "json-schema-valid-component",
-  "version": "0.1.9",
+  "name": "ericgj-json-schema-valid",
   "description": "JSON Schema validator",
+  "version": "0.1.9",
+  "keywords": [],
   "main": "index.js",
-  "directories": {
-    "type": "type",
-    "format": "format",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "make node && mocha --ui bdd test/suite.js test/tests.js"
-  },
   "dependencies": {
-    "json-schema-core-component": "https://github.com/ericgj/json-schema-core/tarball/master",
-    "each-component": "https://github.com/component/each/tarball/master",  
-    "component-type": "https://github.com/component/type/tarball/master",
-    "indexof-component": "https://github.com/component/indexof/tarball/master",  
-    "to-function": "https://github.com/component/to-function/tarball/master",  
-    "is-browser": "https://github.com/forbeslindesay/is-browser/tarball/master"
+    "ericgj-json-schema-core": "git://github.com/npmcomponent/ericgj-json-schema-core.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "component-indexof": "git://github.com/npmcomponent/component-indexof.git",
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git",
+    "forbeslindesay-is-browser": "git://github.com/npmcomponent/forbeslindesay-is-browser.git"
   },
-  "devDependencies": {
-    "json-schema-hyper-component": "https://github.com/ericgj/json-schema-hyper/tarball/master",
-    "mocha": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ericgj/json-schema-valid.git"
-  },
-  "author": "Eric Gjertsen",
   "license": "MIT"
 }

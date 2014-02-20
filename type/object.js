@@ -1,7 +1,7 @@
 'use strict';
 
-var isBrowser = require('is-browser')
-  , type = isBrowser ? require('type') : require('component-type')
+var isBrowser = require('forbeslindesay-is-browser')
+  , type = isBrowser ? require('component-type') : require('component-type')
   , has = hasOwnProperty
 
 module.exports = validateObject;

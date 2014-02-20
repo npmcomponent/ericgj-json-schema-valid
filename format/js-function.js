@@ -1,6 +1,6 @@
 'use strict';
 
-var toFunc = require('to-function')
+var toFunc = require('component-to-function')
 
 module.exports = function(){
 

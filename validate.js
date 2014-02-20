@@ -1,8 +1,8 @@
 'use strict';
 
-var isBrowser = require('is-browser')
-  , indexOf = isBrowser ? require('indexof') : require('indexof-component')
-  , type = isBrowser ? require('type') : require('component-type')
+var isBrowser = require('forbeslindesay-is-browser')
+  , indexOf = isBrowser ? require('component-indexof') : require('indexof-component')
+  , type = isBrowser ? require('component-type') : require('component-type')
 
 module.exports = validate;
 
